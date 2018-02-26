@@ -17,11 +17,11 @@ botaoAdicionar.addEventListener("click", function() {
           adicionaPacienteNaTabela(paciente);
         });
 
-        erroJax.classList.add('invisivel');
+        erroAjax.classList.add('invisivel');
       } else {
         console.log(xhr.status);
         console.log(xhr.responseText);
-        erroJax.classList.remove('invisivel');
+        erroAjax.classList.remove('invisivel');
       }
     });
 
